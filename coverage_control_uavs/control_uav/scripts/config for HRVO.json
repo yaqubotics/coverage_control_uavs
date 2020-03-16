@@ -1,0 +1,77 @@
+{
+  "DEFAULT": {
+    "GRID_START" : 0,
+    "GRID_END" : 1,
+    "GRID_STEP" : 0.02,
+    "FINER_GRID_STEP" : 0.01,
+    "REAL_SCALE" : 50.0,
+    "STATIC_ALTITUDE" : 3,
+    "REGULARIZATION_CONSTANT" :1,
+    "NUM_ITER" :25,
+    "VARIANCE_EXPONENTIAL_SHAPING" : 1,
+    "ROBOT_RADIUS" :0.4,
+    "ROBOT_CLEARENCE" : 1,
+    "TIMEOUT_HRVO" : 10,
+    "USING_GLOBAL_PLANNER" : true,
+    "CONSIDERING_COINCIDED_GOAL" : true,
+    "V_MAX" : 4,
+    "USING_STRATEGY" : 1,
+    "STOP_MAX_VARIANCE" : 0.5,
+    "PATH_PLANNING_METHOD" : "HRVO",
+    "USING_OBSTACLE" : true
+  },
+  "UAV":{
+    "1": {
+      "INIT_POS": [0,0,0],
+      "DEST_POS": [0,0,5],
+      "COLOR": [255,0,0,255]
+    },
+    "2": {
+      "INIT_POS": [28,28,0],
+      "DEST_POS": [28,28,5],
+      "COLOR": [0,255,0,255]
+    }
+  },
+  "OBSTACLE": {
+    "0": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.08,0.3],
+      "POSE" : [0.3,0.6,0,0,0,0,1]
+    },
+    "1": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.08,0.3],
+      "POSE" : [0.4,0.7,0,0,0,0,1]
+    },
+    "2": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.08,0.3],
+      "POSE" : [0.5,0.8,0,0,0,0,1]
+    },
+    "3": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.08,0.3],
+      "POSE" : [0.5,0.3,0,0,0,0,1]
+    },
+    "4": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.08,0.3],
+      "POSE" : [0.6,0.4,0,0,0,0,1]
+    },
+    "5": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.08,0.3],
+      "POSE" : [0.7,0.5,0,0,0,0,1]
+    },
+    "6": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.1,0.3],
+      "POSE" : [0.3,0.5,0,0,0,0,1]
+    },
+    "7": {
+      "TYPE": "CYLINDER",
+      "SIZE": [0.1,0.3],
+      "POSE" : [0.4,0.4,0,0,0,0,1]
+    }
+  }
+}

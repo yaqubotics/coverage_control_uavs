@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="multi_uav" type="control_one_agent.py" name="agent_0" args="0" />
+<node pkg="multi_uav" type="control_one_agent.py" name="agent_1" args="1" />
+<node pkg="rviz" type="rviz" name="rviz" args="-d $(find px4_simulation_stack)/rviz_cfg/multi_hexa_slam.rviz" output="screen"/>
+
+
+</launch>
