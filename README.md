@@ -10,4 +10,16 @@ To play this project, do these following commands:
 ```
 source start_mission.sh
 ```
+The program should look like this:
 
+[![Watch the video](https://img.youtube.com/vi/PpdYl5iVp4I/maxresdefault.jpg)](https://youtu.be/PpdYl5iVp4I)
+
+References:
+
+[1] Todescato, Marco, Andrea Carron, Ruggero Carli, Gianluigi Pillonetto, and Luca Schenato. "Multi-robots Gaussian estimation and coverage control: From client–server to peer-to-peer architectures." Automatica 80 (2017): 284-294.
+
+[2] Snape, Jamie, Jur Van Den Berg, Stephen J. Guy, and Dinesh Manocha. "The hybrid reciprocal velocity obstacle." IEEE Transactions on Robotics 27, no. 4 (2011): 696-706.
+
+Please cite:
+
+Prabowo, Y.A. and Trilaksono, B.R., 2019. Collision-Free Coverage Control of Swarm Robotics Based on Gaussian Process Regression to Estimate Sensory Function in non-Convex Environment. International Journal on Electrical Engineering & Informatics, 11(1).
